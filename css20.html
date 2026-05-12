@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid layout</title>
+    <style>
+        body{
+            margin: 0;
+            display: grid-template-rows:auto 1fr auto;
+            height: 100vh;
+        }
+        .container{
+            display: grid;
+            grid-template-columns: 1fr 1fr 2fr 2fr;
+            gap: 10px;
+            background-color: blueviolet;
+        }
+        .design{
+            padding: 20px;
+            color: #0f72e2;
+            font-weight: 200px;
+
+        }
+        .items{
+         padding: 20px;
+            color: #8d064a;
+            font-weight: 200px
+        }
+    </style>
+</head>
+<body>
+ <h1>My dream room</h1>
+ <div class="container">
+    <div class="design">
+    <h2>Room design</h2>
+    <p>the wall colours will be panited black and white</p>
+    <p>I want the Room to be spaious</p>
+ </div>   
+  <div class="items">
+    <h2>Items</h2>
+    <p>My Room is going to have these items:</p>
+    <ol>
+        <li>A picture with Alan shearer</li>
+        <li>A car design bed</li>
+        <li>A carpet</li>
+        <li>A picture of newcsatle badge</li>
+        <li>A meadl acheviement for wining a race</li>
+        <li>A picture of me as a baby</li>
+        <li>A picture 0f me when three</li>
+    </ol>
+  </div>
+  
+ </div>
+ <div class="foter">
+    all rights resvered by samuel
+  </div>
+</body>
+</html>
